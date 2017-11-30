@@ -1,0 +1,83 @@
+body{
+	font-family:"Encode Sans Expanded", sans-serif;
+}
+.perfil{
+	width:200px;
+	border-radius:100px;
+	margin-top:5px;
+}
+.perfil-amigo{
+	width:200px;
+	height:200px;
+	border-radius:30%;
+}
+#pagina-inicial-logout li{
+	float: right;
+	display:inline;
+	margin-right:15px;
+}
+#nome-amigo{
+	font-weight: 300;
+	padding: 5px;
+	text-align: center;
+	float:left;
+}
+.resumo-perfil{
+	font-weight:500;
+	height:auto;
+	width:400px;
+	background-color: rgba(4, 159, 165, 0.3);
+	border-radius:25px;
+	text-align:center;
+	margin: 0 auto;
+}
+.infos{
+	padding: 10px;
+	display: inline;
+}
+.amigos{
+	width:900px;
+	height:100vh;
+	float:left;
+}
+.li-info{
+	display: inline;
+}
+.ul-info{
+	padding:0px;
+}
+.btn-sessao{
+	background-color:#00868B;
+	padding:5px;
+	border-radius:10px;
+	
+	
+}
+#lista-amigos{
+	margin-top:15px;
+}
+#btn-submit{
+	background-color:#00868B;
+	border: solid 0px;
+	color: #fff;
+	font-size: 0.8em;
+	padding:10px;
+	height: 40px;
+	width: 300px;
+	border-radius: 50px;
+}
+#btn-submit:hover{
+	cursor:pointer;
+	background-color:#016468;
+	transition: 1s;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: auto;
+    text-decoration:none;
+	color:black;
+}
+.btn-sessao:hover{
+	background-color:#016468;
+	cursor:pointer;
+}
